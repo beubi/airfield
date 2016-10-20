@@ -1,0 +1,20 @@
+{
+  "name": "Airfield",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node airfield"
+  },
+  "bin": {
+    "airfield": "./airfield.js"
+  },
+  "dependencies": {
+    "express": "3.0.5",
+    "swig": "1.0.0",
+    "consolidate": "*",
+    "redis": "*",
+    "connect-redis": "*",
+    "async": "*",
+    "request": "*"
+  }
+}
